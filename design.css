@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#loginForm {
+    background: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#emailLabel, #passLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #444;
+}
+
+#email, #pass {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#email:focus, #pass:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+#loginBtn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#loginBtn:hover {
+    background: #43a047;
+}
+
+#rememberLabel {
+    font-size: 13px;
+    color: #555;
+}
+
+#forgotLink {
+    float: right;
+    font-size: 13px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#forgotLink:hover {
+    text-decoration: underline;
+}
+
+#registerText {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+#registerLink {
+    font-size: 14px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#registerLink:hover {
+    text-decoration: underline;
+}
